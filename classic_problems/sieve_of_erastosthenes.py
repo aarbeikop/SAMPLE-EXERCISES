@@ -21,4 +21,9 @@ print(sieve_of_eratosthenes(n))
 
 
 
+def where_is_waldo(lst):
+    for i in range(len(lst)):
+        if lst[i] == "Waldo":
+            return i
 
+print(where_is_waldo(["Alice", "Bob", "Waldo", "Winston"]))
